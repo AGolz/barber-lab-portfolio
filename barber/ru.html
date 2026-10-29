@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BARBER LAB — Барбершоп в Ереване</title>
+  <meta name="description" content="BARBER LAB — барбершоп в Ереване. Мужские стрижки, оформление бороды и бритьё.">
+  <link rel="alternate" hreflang="hy" href="index.html">
+  <link rel="alternate" hreflang="ru" href="ru.html">
+  <link rel="alternate" hreflang="en" href="en.html">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Armenian:wght@400;500;600;700&family=Noto+Serif+Armenian:wght@600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="ru.html" class="logo">BARBER LAB</a>
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#services">Услуги</a>
+        <a href="#masters">Мастера</a>
+        <a href="#works">Работы</a>
+        <a href="#process">Этапы визита</a>
+        <a href="#contacts" class="btn-nav">Записаться</a>
+        <div class="language-switch" role="group" aria-label="Выбрать язык">
+          <a href="index.html" lang="hy" aria-label="Հայերեն">ՀԱՅ</a>
+          <a href="ru.html" lang="ru" aria-label="Русский" aria-current="page">РУ</a>
+          <a href="en.html" lang="en" aria-label="English">EN</a>
+        </div>
+      </nav>
+      <button class="burger" aria-label="Навигационное меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Барбершоп<br>в Ереване</h1>
+        <p class="hero-text">Мужские стрижки, оформление бороды и бритьё. Подберём форму с учётом ваших пожеланий.</p>
+        <a href="#contacts" class="btn">Записаться</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="section-title">Услуги и цены</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Классическая стрижка</h3>
+          <p class="price">8 000 AMD</p>
+          <p>Точная форма, чистые линии и укладка</p>
+        </div>
+        <div class="service-card">
+          <h3>Стрижка и оформление бороды</h3>
+          <p class="price">12 000 AMD</p>
+          <p>Стрижка и моделирование бороды с учётом формы лица</p>
+        </div>
+        <div class="service-card">
+          <h3>Бритьё опасной бритвой</h3>
+          <p class="price">10 000 AMD</p>
+          <p>Подготовка горячим полотенцем и уход после бритья</p>
+        </div>
+        <div class="service-card">
+          <h3>Детская стрижка</h3>
+          <p class="price">6 000 AMD</p>
+          <p>Для детей младше 12 лет</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="masters" id="masters">
+    <div class="container">
+      <h2 class="section-title">Наши мастера</h2>
+      <div class="masters-grid">
+        <div class="master-card">
+          <img class="master-photo" src="assets/aram-portrait.jpg" alt="Стоковый портрет для демонстрационного профиля" loading="lazy">
+          <h3>Арам</h3>
+          <p>Старший барбер · 8 лет опыта</p>
+        </div>
+        <div class="master-card">
+          <img class="master-photo" src="assets/davit-portrait.jpg" alt="Стоковый портрет для демонстрационного профиля" loading="lazy">
+          <h3>Давид</h3>
+          <p>Барбер · Специалист по бороде</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="work-gallery" id="works">
+    <div class="container">
+      <h2 class="section-title">Примеры работ</h2>
+      <p class="gallery-note">Стоковые фотографии для примера; это не реальные работы мастеров BARBER LAB.</p>
+      <div class="work-grid">
+        <figure class="work-card">
+          <img class="work-image work-image--detail" src="assets/work-cut-closeup.jpg" alt="Крупный план работы барбера" loading="lazy">
+          <figcaption>
+            <h3>Точный контур</h3>
+            <p>Чистые линии и внимание к деталям</p>
+          </figcaption>
+        </figure>
+        <figure class="work-card">
+          <img class="work-image" src="assets/work-fade.jpg" alt="Стрижка фейд в процессе" loading="lazy">
+          <figcaption>
+            <h3>Стрижка фейд</h3>
+            <p>Мягкий переход и чёткий контур</p>
+          </figcaption>
+        </figure>
+        <figure class="work-card">
+          <img class="work-image" src="assets/work-shave.jpg" alt="Бритьё в барбершопе" loading="lazy">
+          <figcaption>
+            <h3>Классическое бритьё</h3>
+            <p>Бритьё и уход с горячим полотенцем</p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="process" id="process">
+    <div class="container">
+      <h2 class="section-title">Этапы визита</h2>
+      <div class="process-steps">
+        <div class="step">
+          <span class="step-num">01</span>
+          <h3>Запись</h3>
+          <p>Оставьте заявку, указав услугу и удобное время</p>
+        </div>
+        <div class="step">
+          <span class="step-num">02</span>
+          <h3>Консультация</h3>
+          <p>Мастер уточнит ваши пожелания и предложит подходящую форму</p>
+        </div>
+        <div class="step">
+          <span class="step-num">03</span>
+          <h3>Работа</h3>
+          <p>Мастер выполнит услугу с учётом согласованной формы</p>
+        </div>
+        <div class="step">
+          <span class="step-num">04</span>
+          <h3>Завершение</h3>
+          <p>Укладка и рекомендации по уходу</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacts" id="contacts">
+    <div class="container">
+      <h2 class="section-title">Записаться</h2>
+      <div class="contacts-grid">
+        <div class="contact-details">
+          <h3>Контакты</h3>
+          <dl class="contact-list">
+            <div>
+              <dt>Адрес</dt>
+              <dd>Ереван, ул. Демо, 12</dd>
+            </div>
+            <div>
+              <dt>Телефон</dt>
+              <dd>+374 00 000 000</dd>
+            </div>
+            <div>
+              <dt>Часы работы</dt>
+              <dd>Ежедневно, 10:00–21:00</dd>
+            </div>
+          </dl>
+          <p class="demo-note">Демонстрационный проект: адрес и телефон вымышлены, портреты мастеров — стоковые.</p>
+        </div>
+        <div class="booking">
+          <form class="booking-form" id="bookingForm" data-thanks="Спасибо" data-demo="Это демонстрационная форма. Заявка не отправлена.">
+            <div class="form-group">
+              <label for="bookingName">Имя</label>
+              <input id="bookingName" type="text" name="name" placeholder="Ваше имя" required>
+            </div>
+            <div class="form-group">
+              <label for="bookingPhone">Телефон</label>
+              <input id="bookingPhone" type="tel" name="phone" placeholder="Телефон" required>
+            </div>
+            <div class="form-group">
+              <label for="bookingService">Услуга</label>
+              <select id="bookingService" name="service" required>
+                <option value="">Выберите услугу</option>
+                <option value="haircut">Классическая стрижка</option>
+                <option value="haircut-beard">Стрижка и оформление бороды</option>
+                <option value="shave">Бритьё опасной бритвой</option>
+                <option value="kids">Детская стрижка</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="bookingBarber">Мастер</label>
+              <select id="bookingBarber" name="barber" required>
+                <option value="">Выберите мастера</option>
+                <option value="aram">Арам</option>
+                <option value="david">Давид</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="bookingDate">Дата</label>
+                <input id="bookingDate" type="date" name="date" required>
+              </div>
+              <div class="form-group">
+                <label for="bookingTime">Время</label>
+                <input id="bookingTime" type="time" name="time" required>
+              </div>
+            </div>
+            <button type="submit" class="btn">Отправить</button>
+          </form>
+          <p class="form-note">Форма работает в демонстрационном режиме. Заявка не отправляется.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 BARBER LAB · Ереван</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

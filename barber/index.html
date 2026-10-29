@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BARBER LAB — Բարբերշոփ Երևանում</title>
+  <meta name="description" content="BARBER LAB բարբերշոփը Երևանում առաջարկում է տղամարդկանց սանրվածքներ, մորուքի ձևավորում և սափրում։">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Armenian:wght@400;500;600;700&family=Noto+Serif+Armenian:wght@600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">BARBER LAB</a>
+      <nav class="nav" aria-label="Հիմնական նավարկում">
+        <a href="#services">Ծառայություններ</a>
+        <a href="#masters">Վարպետներ</a>
+        <a href="#works">Աշխատանքներ</a>
+        <a href="#process">Այցի ընթացքը</a>
+        <a href="#contacts" class="btn-nav">Ամրագրել այց</a>
+        <div class="language-switch" role="group" aria-label="Ընտրել լեզուն">
+          <a href="index.html" lang="hy" aria-label="Հայերեն" aria-current="page">ՀԱՅ</a>
+          <a href="ru.html" lang="ru" aria-label="Русский">РУ</a>
+          <a href="en.html" lang="en" aria-label="English">EN</a>
+        </div>
+      </nav>
+      <button class="burger" aria-label="Նավարկման ընտրացանկը" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Բարբերշոփ<br>Երևանում</h1>
+        <p class="hero-text">Տղամարդկանց սանրվածքներ, մորուքի ձևավորում և սափրում։ Կընտրենք Ձեզ համապատասխան ձևը՝ հաշվի առնելով Ձեր նախընտրությունները։</p>
+        <a href="#contacts" class="btn">Ամրագրել այց</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="section-title">Ծառայություններ և գներ</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Դասական սանրվածք</h3>
+          <p class="price">8 000 AMD</p>
+          <p>Հստակ ձև, մաքուր գծեր և հարդարում</p>
+        </div>
+        <div class="service-card">
+          <h3>Սանրվածք և մորուքի ձևավորում</h3>
+          <p class="price">12 000 AMD</p>
+          <p>Սանրվածք և մորուքի մոդելավորում՝ հաշվի առնելով դեմքի ձևը</p>
+        </div>
+        <div class="service-card">
+          <h3>Սափրում ուղիղ ածելիով</h3>
+          <p class="price">10 000 AMD</p>
+          <p>Տաք սրբիչով պատրաստում և խնամք սափրումից հետո</p>
+        </div>
+        <div class="service-card">
+          <h3>Մանկական սանրվածք</h3>
+          <p class="price">6 000 AMD</p>
+          <p>Մինչև 12 տարեկան երեխաների համար</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Masters -->
+  <section class="masters" id="masters">
+    <div class="container">
+      <h2 class="section-title">Մեր վարպետները</h2>
+      <div class="masters-grid">
+        <div class="master-card">
+          <img class="master-photo" src="assets/aram-portrait.jpg" alt="Դեմո պրոֆիլի համար օգտագործված ստոկային դիմանկար" loading="lazy">
+          <h3>Արամ</h3>
+          <p>Ավագ վարսավիր · 8 տարվա փորձ</p>
+        </div>
+        <div class="master-card">
+          <img class="master-photo" src="assets/davit-portrait.jpg" alt="Դեմո պրոֆիլի համար օգտագործված ստոկային դիմանկար" loading="lazy">
+          <h3>Դավիթ</h3>
+          <p>Վարսավիր · Մորուքի ձևավորման մասնագետ</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="work-gallery" id="works">
+    <div class="container">
+      <h2 class="section-title">Մեր աշխատանքները</h2>
+      <p class="gallery-note">Ստոկային լուսանկարներ են․ դրանք BARBER LAB-ի հաճախորդների իրական աշխատանքները չեն։</p>
+      <div class="work-grid">
+        <figure class="work-card">
+          <img class="work-image work-image--detail" src="assets/work-cut-closeup.jpg" alt="Վարսավիրի աշխատանքի մոտ կադր" loading="lazy">
+          <figcaption>
+            <h3>Ճշգրիտ եզրագիծ</h3>
+            <p>Մանրուքների մշակում և մաքուր գծեր</p>
+          </figcaption>
+        </figure>
+        <figure class="work-card">
+          <img class="work-image" src="assets/work-fade.jpg" alt="Ֆեյդ սանրվածք ստանալիս" loading="lazy">
+          <figcaption>
+            <h3>Ֆեյդ սանրվածք</h3>
+            <p>Փափուկ անցում և հստակ ուրվագիծ</p>
+          </figcaption>
+        </figure>
+        <figure class="work-card">
+          <img class="work-image" src="assets/work-shave.jpg" alt="Վարսավիրանոցում սափրման գործընթաց" loading="lazy">
+          <figcaption>
+            <h3>Դասական սափրում</h3>
+            <p>Սափրում և խնամք տաք սրբիչով</p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="process" id="process">
+    <div class="container">
+      <h2 class="section-title">Այցի ընթացքը</h2>
+      <div class="process-steps">
+        <div class="step">
+          <span class="step-num">01</span>
+          <h3>Ամրագրում</h3>
+          <p>Նշեք ծառայությունն ու Ձեզ հարմար ժամը</p>
+        </div>
+        <div class="step">
+          <span class="step-num">02</span>
+          <h3>Խորհրդատվություն</h3>
+          <p>Վարպետը կհստակեցնի Ձեր նախընտրությունները և կառաջարկի համապատասխան ձևը</p>
+        </div>
+        <div class="step">
+          <span class="step-num">03</span>
+          <h3>Սանրվածք</h3>
+          <p>Վարպետը կկատարի ծառայությունը՝ համաձայնեցված ձևին համապատասխան</p>
+        </div>
+        <div class="step">
+          <span class="step-num">04</span>
+          <h3>Ավարտ</h3>
+          <p>Կավարտենք հարդարմամբ և կտրամադրենք խնամքի խորհուրդներ</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacts / Form -->
+  <section class="contacts" id="contacts">
+    <div class="container">
+      <h2 class="section-title">Ամրագրել այց</h2>
+      <div class="contacts-grid">
+        <div class="contact-details">
+          <h3>Կոնտակտներ</h3>
+          <dl class="contact-list">
+            <div>
+              <dt>Հասցե</dt>
+              <dd>Երևան, Դեմո փողոց, 12</dd>
+            </div>
+            <div>
+              <dt>Հեռախոս</dt>
+              <dd>+374 00 000 000</dd>
+            </div>
+            <div>
+              <dt>Աշխատանքային ժամեր</dt>
+              <dd>Ամեն օր՝ 10:00–21:00</dd>
+            </div>
+          </dl>
+          <p class="demo-note">Դեմո նախագիծ է․ հասցեն և հեռախոսահամարը հորինված են, վարպետների դիմանկարները՝ ստոկային։</p>
+        </div>
+
+        <div class="booking">
+          <form class="booking-form" id="bookingForm" data-thanks="Շնորհակալություն" data-demo="Սա ցուցադրական ձև է․ հայտը չի ուղարկվել։">
+            <div class="form-group">
+              <label for="bookingName">Անուն</label>
+              <input id="bookingName" type="text" name="name" placeholder="Ձեր անունը" required>
+            </div>
+            <div class="form-group">
+              <label for="bookingPhone">Հեռախոսահամար</label>
+              <input id="bookingPhone" type="tel" name="phone" placeholder="Հեռախոսահամար" required>
+            </div>
+            <div class="form-group">
+              <label for="bookingService">Ծառայություն</label>
+              <select id="bookingService" name="service" required>
+                <option value="">Ընտրեք ծառայությունը</option>
+                <option value="haircut">Դասական սանրվածք</option>
+                <option value="haircut-beard">Սանրվածք և մորուքի ձևավորում</option>
+                <option value="shave">Սափրում ուղիղ ածելիով</option>
+                <option value="kids">Մանկական սանրվածք</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="bookingBarber">Վարպետ</label>
+              <select id="bookingBarber" name="barber" required>
+                <option value="">Ընտրեք վարպետին</option>
+                <option value="aram">Արամ</option>
+                <option value="david">Դավիթ</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="bookingDate">Ամսաթիվ</label>
+                <input id="bookingDate" type="date" name="date" required>
+              </div>
+              <div class="form-group">
+                <label for="bookingTime">Ժամ</label>
+                <input id="bookingTime" type="time" name="time" required>
+              </div>
+            </div>
+            <button type="submit" class="btn">Ուղարկել</button>
+          </form>
+          <p class="form-note">Ցուցադրական ձև է․ հայտը չի ուղարկվում։</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 BARBER LAB · Երևան</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

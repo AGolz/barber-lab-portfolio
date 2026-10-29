@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BARBER LAB — Barbershop in Yerevan</title>
+  <meta name="description" content="BARBER LAB is a barbershop in Yerevan offering men's haircuts, beard grooming and straight-razor shaves.">
+  <link rel="alternate" hreflang="hy" href="index.html">
+  <link rel="alternate" hreflang="ru" href="ru.html">
+  <link rel="alternate" hreflang="en" href="en.html">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Armenian:wght@400;500;600;700&family=Noto+Serif+Armenian:wght@600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="en.html" class="logo">BARBER LAB</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#masters">Our barbers</a>
+        <a href="#works">Our work</a>
+        <a href="#process">Your visit</a>
+        <a href="#contacts" class="btn-nav">Book a visit</a>
+        <div class="language-switch" role="group" aria-label="Select language">
+          <a href="index.html" lang="hy" aria-label="Հայերեն">ՀԱՅ</a>
+          <a href="ru.html" lang="ru" aria-label="Русский">РУ</a>
+          <a href="en.html" lang="en" aria-label="English" aria-current="page">EN</a>
+        </div>
+      </nav>
+      <button class="burger" aria-label="Navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Barbershop<br>in Yerevan</h1>
+        <p class="hero-text">Men’s haircuts, beard grooming and straight-razor shaves. We’ll recommend a style based on your preferences.</p>
+        <a href="#contacts" class="btn">Book a visit</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="section-title">Services &amp; prices</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Classic haircut</h3>
+          <p class="price">8,000 AMD</p>
+          <p>A precise shape, clean lines and styling</p>
+        </div>
+        <div class="service-card">
+          <h3>Haircut &amp; beard grooming</h3>
+          <p class="price">12,000 AMD</p>
+          <p>A haircut and beard shape tailored to your face</p>
+        </div>
+        <div class="service-card">
+          <h3>Straight-razor shave</h3>
+          <p class="price">10,000 AMD</p>
+          <p>Hot towel preparation and post-shave care</p>
+        </div>
+        <div class="service-card">
+          <h3>Children’s haircut</h3>
+          <p class="price">6,000 AMD</p>
+          <p>For children under 12</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="masters" id="masters">
+    <div class="container">
+      <h2 class="section-title">Our barbers</h2>
+      <div class="masters-grid">
+        <div class="master-card">
+          <img class="master-photo" src="assets/aram-portrait.jpg" alt="Stock portrait used for this demo profile" loading="lazy">
+          <h3>Aram</h3>
+          <p>Senior barber · 8 years of experience</p>
+        </div>
+        <div class="master-card">
+          <img class="master-photo" src="assets/davit-portrait.jpg" alt="Stock portrait used for this demo profile" loading="lazy">
+          <h3>David</h3>
+          <p>Barber · Beard grooming specialist</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="work-gallery" id="works">
+    <div class="container">
+      <h2 class="section-title">Selected styles</h2>
+      <p class="gallery-note">Stock photos for demonstration; these are not actual BARBER LAB client results.</p>
+      <div class="work-grid">
+        <figure class="work-card">
+          <img class="work-image work-image--detail" src="assets/work-cut-closeup.jpg" alt="Close-up of a barber at work" loading="lazy">
+          <figcaption>
+            <h3>Precision detailing</h3>
+            <p>Clean lines and careful finishing</p>
+          </figcaption>
+        </figure>
+        <figure class="work-card">
+          <img class="work-image" src="assets/work-fade.jpg" alt="Fade haircut in progress" loading="lazy">
+          <figcaption>
+            <h3>Fade</h3>
+            <p>A soft blend with a precise outline</p>
+          </figcaption>
+        </figure>
+        <figure class="work-card">
+          <img class="work-image" src="assets/work-shave.jpg" alt="A shave in a barbershop" loading="lazy">
+          <figcaption>
+            <h3>Classic shave</h3>
+            <p>A shave with hot towel preparation</p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="process" id="process">
+    <div class="container">
+      <h2 class="section-title">Your visit</h2>
+      <div class="process-steps">
+        <div class="step">
+          <span class="step-num">01</span>
+          <h3>Booking</h3>
+          <p>Send a request with your chosen service and preferred time</p>
+        </div>
+        <div class="step">
+          <span class="step-num">02</span>
+          <h3>Consultation</h3>
+          <p>Your barber will discuss your preferences and suggest a suitable style</p>
+        </div>
+        <div class="step">
+          <span class="step-num">03</span>
+          <h3>The service</h3>
+          <p>Your barber will work to the agreed shape and style</p>
+        </div>
+        <div class="step">
+          <span class="step-num">04</span>
+          <h3>Finishing touches</h3>
+          <p>We’ll finish with styling and share care recommendations</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacts" id="contacts">
+    <div class="container">
+      <h2 class="section-title">Book a visit</h2>
+      <div class="contacts-grid">
+        <div class="contact-details">
+          <h3>Contact details</h3>
+          <dl class="contact-list">
+            <div>
+              <dt>Address</dt>
+              <dd>12 Demo Street, Yerevan</dd>
+            </div>
+            <div>
+              <dt>Phone</dt>
+              <dd>+374 00 000 000</dd>
+            </div>
+            <div>
+              <dt>Opening hours</dt>
+              <dd>Daily, 10:00–21:00</dd>
+            </div>
+          </dl>
+          <p class="demo-note">Portfolio demo: the address and phone number are fictional; barber portraits are stock photos.</p>
+        </div>
+        <div class="booking">
+          <form class="booking-form" id="bookingForm" data-thanks="Thank you" data-demo="This is a demo form. Your request was not sent.">
+            <div class="form-group">
+              <label for="bookingName">Name</label>
+              <input id="bookingName" type="text" name="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <label for="bookingPhone">Phone number</label>
+              <input id="bookingPhone" type="tel" name="phone" placeholder="Phone number" required>
+            </div>
+            <div class="form-group">
+              <label for="bookingService">Service</label>
+              <select id="bookingService" name="service" required>
+                <option value="">Choose a service</option>
+                <option value="haircut">Classic haircut</option>
+                <option value="haircut-beard">Haircut &amp; beard grooming</option>
+                <option value="shave">Straight-razor shave</option>
+                <option value="kids">Children’s haircut</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="bookingBarber">Barber</label>
+              <select id="bookingBarber" name="barber" required>
+                <option value="">Choose a barber</option>
+                <option value="aram">Aram</option>
+                <option value="david">David</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="bookingDate">Date</label>
+                <input id="bookingDate" type="date" name="date" required>
+              </div>
+              <div class="form-group">
+                <label for="bookingTime">Time</label>
+                <input id="bookingTime" type="time" name="time" required>
+              </div>
+            </div>
+            <button type="submit" class="btn">Send request</button>
+          </form>
+          <p class="form-note">Demo form only. Your request will not be sent.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 BARBER LAB · Yerevan</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
